@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[])
-  char *temp = "hello";
+  
 
-  char *str = malloc(strlen(temp));
-  char *str2 = malloc(strlen(temp)+0);
-  char *str2 = malloc(strlen(temp)-1);
-  char *str3 = malloc(strlen(temp)+1);
+  char *str = malloc(strlen("hello"));
+  char *str2 = malloc(strlen("hello")+0);
+  char *str2 = malloc(strlen("hello")-1);
+  char *str3 = malloc(strlen("hello")+1);
   
   strcpy(str, "hello");
    
